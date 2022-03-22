@@ -1,16 +1,33 @@
+@import "~normalize.css";
+@import "themes/light.css";
+@import "themes/dark.css";
+@import "animations/typewriter.css";
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background: var(--primary-background);
+  color: var(--primary-color);
+  scroll-behavior: smooth;
+
+  --typewriter-step: 20;
 }
 
 a {
-  color: inherit;
+  color: var(--primary-color);;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+
+.html__tag {
+  color: var(--primary-warning-tint);
+  font-family: 'Source Code Pro', monospace;
 }

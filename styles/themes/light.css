@@ -1,0 +1,10 @@
+:root .light {
+	--primary-background: #FDFFFC;
+	--primary-color: #011627;
+	--primary-success: #2EC4B6;
+	--primary-danger: #E71D36;
+
+
+	--primary-warning: #FF9F1C;
+	--primary-warning-tint: #ff8e00;
+}
