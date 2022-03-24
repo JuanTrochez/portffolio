@@ -4,3 +4,21 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.container h1 {
+	font-size: 5rem;
+	margin: 1rem 0;
+	text-align: center;
+}
+.container h2 {
+	font-size: 1rem;
+}
+
+.job {
+	display: flex;
+	align-items: center;
+}
+
+.job h2 {
+	margin: 0 10px;
+}

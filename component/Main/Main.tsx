@@ -3,14 +3,13 @@ import styles from './Main.module.css';
 const Main = () => {
     return (
         <section className={styles.container}>
-            <span>Bonjour, je {'m\'appelle'}</span>
             <h1>
-                Juan Trochez
+                <span className={'accent'}>J</span>uan <span className={'accent'}>Tr</span>ochez
             </h1>
-            <div>
+            <div className={styles.job}>
                 <span className={`html__tag`}>{'<job>'}</span>
                 <h2 className={'typewriter'}>
-                    Développeur Front-end
+                    Développeur web Front-end
                 </h2>
                 <span className={`html__tag`}>{'</job>'}</span>
             </div>

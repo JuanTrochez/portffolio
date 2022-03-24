@@ -2,13 +2,16 @@
 @import "themes/light.css";
 @import "themes/dark.css";
 @import "animations/typewriter.css";
+@import '~@material/drawer/dist/mdc.drawer.css';
 
 html,
 body {
   padding: 0;
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
 
   background: var(--primary-background);
   color: var(--primary-color);
@@ -20,6 +23,7 @@ body {
 a {
   color: var(--primary-color);;
   text-decoration: none;
+  outline: none;
 }
 
 * {
@@ -30,4 +34,8 @@ a {
 .html__tag {
   color: var(--primary-warning-tint);
   font-family: 'Source Code Pro', monospace;
+}
+
+.accent {
+  color: var(--primary-success);
 }
