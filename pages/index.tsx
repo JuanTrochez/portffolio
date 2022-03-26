@@ -9,9 +9,7 @@ const Home: NextPage = () => {
         <div className={`${styles.container}`}>
             <Menu />
 
-            <main className={styles.main}>
-                <Main />
-            </main>
+            <Main />
 
             <Footer />
         </div>

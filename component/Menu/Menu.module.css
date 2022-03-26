@@ -4,6 +4,8 @@
 	align-items: center;
 	position: fixed;
 	width: 100%;
+	z-index: 99;
+	background: var(--primary-background-tint);
 }
 
 .theme__toggle {

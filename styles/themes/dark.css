@@ -1,5 +1,6 @@
 :root, :root .dark {
 	--primary-background: #011627;
+	--primary-background-tint: #011627ed;
 	--primary-color: #FDFFFC;
 	--primary-success: #2EC4B6;
 	--primary-danger: #E71D36;
